@@ -1,0 +1,63 @@
+#bg{
+   background-image:url("2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+div{
+   background-color:#00008B;
+   opacity:.7;
+   position:relative;
+   margin-left:35%;
+   margin-top:20%;
+   padding:40px 50px 40px 30px;
+   width:50%;
+   border-radius:10px;
+   width:25%;
+}
+
+label{
+   font-style:oblique;
+   font-weight:bold;
+   font-size:1.2em;
+   color:white;
+}
+
+input[type="text"],input[type="password"]{
+   width:100%;
+   border-radius:5px;
+   margin-top:5px;
+   margin-bottom:5px;
+   padding:5px 5px;
+}
+
+input[type="submit"]{
+   padding:4px 4px;
+   border-radius: 3px;
+   margin-top:10px;
+   width:267px;
+   background-color:#00BFFF;
+   border:none;
+}
+
+input[type="submit"]:hover{
+   box-shadow:3px 3px 5px orange;
+   background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

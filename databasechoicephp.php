@@ -1,0 +1,10 @@
+<?php
+  if(isset($_POST["লোডশেডিং_তথ্য_ইনপুট"]))
+     header('Location:newdatabase.php');
+  elseif(isset($_POST["বিস্তারিত_তথ্য_দেখুন"]))
+     header('Location:showtables.php');
+  elseif(isset($_POST["লগইন_পেজে_ফিরে_যান"]))
+     header('Location:backtologin.php');
+  elseif(isset($_POST["হোম_পেজে_ফিরে_যান"]))
+     header('Location:backtohome.php'); 	 
+?>
